@@ -1,7 +1,6 @@
-const fs = require("fs");
-const path = require("path");
+
 const inquirer = require("inquirer");
-//const open = require("open");
+const render = require("./lib/htmlbuild")
 
 const Employee = require("./lib/Employee");
 const Engineer = require("./lib/Engineer");
@@ -113,7 +112,7 @@ function addTeam(){
             createIntern();
         }
         else {
-            //render(team);
+            render(team);
         }
 
     });
