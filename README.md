@@ -1,10 +1,10 @@
 # Team-profile-gen
  
-#Description
+<h1>Description</h1>
 
 I have created an app that will allow a team profile to be created which can be customized depending on the teams roles.
 
-#User story
+<h1>User story</h1>
 
 As a manager
 I want to generate a webpage that displays my team's basic info
